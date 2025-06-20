@@ -3,7 +3,7 @@
 
 #include "core/status_led.h"
 
-static enum status_led_state {
+enum status_led_state {
   CORE_STATUS_LED_ON,
   CORE_STATUS_LED_OFF
 };

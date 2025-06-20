@@ -16,18 +16,18 @@ drivers_time_ms(void)
 }
 
 void
-drivers_led_on(DRIVERS_LED led)
+drivers_led_on(drivers_led_t led)
 {
   // Do nothing for now
 }
 
 void
-drivers_led_off(DRIVERS_LED led)
+drivers_led_off(drivers_led_t led)
 {
   // Do nothing for now
 }
 
-void drivers_led_toggle(DRIVERS_LED led)
+void drivers_led_toggle(drivers_led_t led)
 {
   // Do nothing for now
 }
