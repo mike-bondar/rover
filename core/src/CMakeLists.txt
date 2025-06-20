@@ -1,3 +1,2 @@
-target_include_directories(core PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include)
-
-target_sources(core PRIVATE core.c)
+target_sources(core PRIVATE core.c status_led.c)
+target_include_directories(core PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)

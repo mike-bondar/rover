@@ -12,7 +12,7 @@ pico_sdk_init()
 include(${CMAKE_CURRENT_LIST_DIR}/../cmake_libs.cmake)
 
 add_executable(pico_rover)
-target_link_libraries(pico_rover pico_stdlib core)
+target_link_libraries(pico_rover pico_stdlib core drivers commons)
 pico_add_extra_outputs(pico_rover)
 
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/src)

@@ -6,11 +6,10 @@ main(void)
 
   core_init();
 
-    while (1)
-    {
-        // Main loop of the program
-        // This is where the program logic would go
-    }
+  while (1)
+  {
+    core_run_tasks();
+  }
 
-    return 0;
+  return 0;
 }
