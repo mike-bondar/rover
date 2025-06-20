@@ -3,7 +3,8 @@
 int 
 main(void)
 {
-    core_init();
+
+  core_init();
 
     while (1)
     {
