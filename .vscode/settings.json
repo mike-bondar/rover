@@ -1,0 +1,6 @@
+{
+  "cmake.sourceDirectory": "/home/mike/Vault/code/rover/pico",
+  "files.associations": {
+    "status_led.h": "c"
+  }
+}

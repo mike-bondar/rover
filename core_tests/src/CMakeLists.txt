@@ -1,0 +1,3 @@
+add_executable(status_led_success_test status_led_success_test.c)
+target_link_libraries(status_led_success_test core drivers commons)
+add_test(NAME status_led_success_test COMMAND status_led_success_test)

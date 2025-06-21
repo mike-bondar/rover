@@ -8,4 +8,7 @@ void
 core_status_led_run_tasks(void);
 
 int
+core_status_led_init(void);
+
+int
 core_status_led_success(void);

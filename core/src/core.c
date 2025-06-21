@@ -6,6 +6,7 @@
 void
 core_init(void)
 {
+  core_status_led_init();
   core_status_led_success();
 }
 

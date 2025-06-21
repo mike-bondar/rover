@@ -3,10 +3,23 @@
 
 static int current_task_id = 0;
 
+int
+drivers_led_init(drivers_led_t led)
+{
+  // Do nothing for now
+  return 0;
+}
+
 void
 drivers_log_info(const char *message)
 {
   // DO Nothing for now
+}
+
+void
+drivers_log_debug(const char *message, ...)
+{
+  // Do nothing for now
 }
 
 int
