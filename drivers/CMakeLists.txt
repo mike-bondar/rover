@@ -1,3 +1,3 @@
 add_library(drivers INTERFACE)
 
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/src ${CMAKE_CURRENT_BINARY_DIR}/src)
+target_include_directories(drivers INTERFACE ${CMAKE_CURRENT_LIST_DIR}/include)

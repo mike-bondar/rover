@@ -1,1 +1,0 @@
-target_include_directories(drivers INTERFACE ${CMAKE_CURRENT_LIST_DIR}/include)
