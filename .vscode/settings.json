@@ -1,6 +1,3 @@
 {
-  "files.associations": {
-    "status_led.h": "c"
-  },
-  "cmake.sourceDirectory": "/home/mike/Vault/code/rover/core_tests"
+  "cmake.sourceDirectory": "/home/mike/Vault/code/rover/pico"
 }

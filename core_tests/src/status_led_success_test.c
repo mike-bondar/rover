@@ -48,18 +48,6 @@ drivers_led_off(drivers_led_t led)
   }
 }
 
-void
-drivers_led_toggle(drivers_led_t led)
-{
-  switch (led) {
-    case DRIVERS_LED_SUCCESS:
-      leds.success_led = !leds.success_led;
-      break;
-    default:
-      assert(0 && "Unknown LED");
-  }
-}
-
 static int curret_time_ms = 0;
 
 int

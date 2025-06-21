@@ -1,3 +1,8 @@
+# Project directory structure
+
+- **drivers/**
+Hardware abstraction layer. Must be implemented by a specific board
+
 # IDEAS
 
 1. Battery charge tracker with LED indicating a low battery charge
