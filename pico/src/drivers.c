@@ -59,7 +59,7 @@ drivers_led_off(drivers_led_t led)
   switch (led)
   {
   case DRIVERS_LED_SUCCESS:
-    gpio_put(PICO_LED_SUCCESS_PIN, 1);
+    gpio_put(PICO_LED_SUCCESS_PIN, 0);
     break;
   default:
   }

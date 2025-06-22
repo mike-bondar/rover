@@ -4,17 +4,21 @@
 
 #include "core/status_led.h"
 
-enum status_led_state {
+enum core_status_led_state
+{
   CORE_STATUS_LED_OFF,
   CORE_STATUS_LED_ON,
 };
 
-struct {
-  int cycle_start_time;
-  int remaining_cycles;
-  int cycles_started;
-  enum status_led_state current_state;
-} success_led_state = {0, 0, 0, CORE_STATUS_LED_OFF};
+struct core_status_led
+{
+  int cycle_start_time; // Time when the current cycle started
+  int remaining_cycles; // Number of cycles left to complete
+  int cycles_started;   // Number of cycles that have been started
+  enum core_status_led_state current_state; // Current state of the LED
+};
+
+static struct core_status_led success_led_state = {0, 0, 0, CORE_STATUS_LED_OFF};
 
 int
 core_status_led_init(void)
