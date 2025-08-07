@@ -5,3 +5,4 @@ function(add_core_test test_name)
 endfunction()
 
 add_core_test(status_led_success_test)
+add_core_test(battery_monitor_test)
