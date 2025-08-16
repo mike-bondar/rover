@@ -1,7 +1,8 @@
 #pragma once
 
 typedef enum {
-  DRIVERS_LED_SUCCESS
+  DRIVERS_LED_SUCCESS,
+  DRIVERS_LED_BATTERY_CHARGE_LOW
 } drivers_led_t;
 
 int
