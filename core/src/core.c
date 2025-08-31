@@ -7,6 +7,7 @@
 void
 core_init(void)
 {
+  // Init all the peripherals
   core_status_led_init();
   core_battery_monitor_init();
   core_battery_status_led_init();
